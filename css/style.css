@@ -19,6 +19,7 @@ header p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 26px;
+    text-align: justify;
     /* text-align: center; */
     /* color: #300091; */
 }
@@ -64,12 +65,14 @@ main {
     float: left;
     width: 60%;
     padding: 20px;
+  
 }
 
 main p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 26px;
+    text-align: justify;
 }
 
 aside {
@@ -81,12 +84,14 @@ aside {
     margin-top: 15px;
     box-shadow: 5px 5px 8px #141414;
     /* 1º valor é pros lados, 2º valor para cima ou para baixo, 3º desfoque*/
+    text-align: justify;
 }
 
 aside p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 26px;
+    text-align: justify;
 }
 
 footer {
@@ -129,7 +134,7 @@ footer p a:hover {
 
     main {
         width: 70%;
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
     footer {
@@ -147,6 +152,7 @@ footer p a:hover {
         /* descolar do footer e aparecer a sombra no rodapé*/
     }
     footer {
-        height: auto; color: #ff0000;
+        height: auto; 
+        /* color: #ff0000; */
     }
 }
